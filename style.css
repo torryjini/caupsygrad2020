@@ -13,6 +13,28 @@ h1 {
   margin:0;
   padding:30px;
 }
+.websitelist {
+  display:flex;
+  margin:0 auto;
+}
+.website-item {
+  width:200px;
+  height:160px;
+  border:solid black;
+  border-radius:4px;
+  text-align:center;
+  line-height:60px;
+}
+.website-button {
+  color:white ;
+  background-color:#007bff;
+  background-image:none;
+  padding:.5rem 1rem;
+  font-size:1.25rem;
+  line-height:1.5;
+  border-radius:.3rem;
+}
+
 #mainmenu {
   border-right:1px solid gray;
   width:150px;
@@ -47,6 +69,7 @@ th,td{
   h1 {
     border-bottom:none;
    }
+ }
 button  {
    display: block; margin: 0 auto;
   }
