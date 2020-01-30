@@ -1,6 +1,7 @@
 body {
   margin:0;
 }
+
 a {
   color:black;
   text-decoration: none;
@@ -60,6 +61,7 @@ h1 {
 #maincontent {
   text-align: center;
 }
+
 
 th,td{
   text-align: center;
