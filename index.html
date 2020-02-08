@@ -5,79 +5,67 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <style>
-      .websitelist {
-        display:flex;
-        text-align:center;
-        justify-content: center;
-      }
-      .website-item {
-        width:200px;
-        height:160px;
-        border:solid black;
-        border-radius:4px;
-        line-height:30px;
-        margin: 15px;
-      }
-      .website-button {
-        color:white ;
-        background-color:#007bff;
-        background-image:none;
-        padding:.5rem 1rem;
-        font-size:1.25rem;
-        line-height:1.5;
-        border-radius:.3rem;
-      }
 
-      button {
-        margin-top:20px;
-      }
     </style>
   </head>
 
   <body>
-    <a href="index.html"><h1>CAU PSYCHE GRAD-READY</h1></a>
-    <div id="grid">
-      <ol id="mainmenu">
-        <li><a href="1steps.html">심리학과 개설과목</a></li>
-        <li><a href="2standard.html">졸업사정 기준</a></li>
-        <li><a href="3checklist.html">졸업 체크리스트</a></li>
-        <li><a href="4test.html">졸업시험</a></li>
-        <li><a href="5etc.html">기타 졸업요건</a></li>
-      </ol>
-      <div id="article" class="logo">
-        <div id="maincontent">
-          <p>중앙대학교 심리학과 졸업 준비를 위한 페이지입니다.<br>
-            심리학과 개설과목 커리큘럼과 졸업사정 기준표, 졸업 체크리스트를 확인하시고 졸업에 참고하시길 바랍니다.<br><br>
-            <img src="psyche_logo.png"><br>
-             <br>
-             게시된 자료는 참고용입니다. <br>
-             자가진단 후 정확한 사항은 반드시 심리학과 사무실 혹은 사회과학대학 등에 문의하시기 바랍니다.
-             <br><br>
-             졸업 및 학사 정보 등은 아래 홈페이지들을 수시로 방문하셔서 확인하시기를 권합니다.
-
-             <br><br>
-               <div class="websitelist">
-                 <div class="website-item">
-                   중앙대학교<br>홈페이지
-                   <a href="https://www.cau.ac.kr/index.do" target="_blank"><button type="button" class="website-button">바로가기</button></a>
-                 </div>
-                 <div class="website-item">
-                   중앙대학교<br>사회과학대학
-                   <a href="https://society.cau.ac.kr/" target="_blank"><button type="button" class="website-button">바로가기</button></a>
-                 </div>
-                 <div class="website-item">
-                   중앙대학교<br>심리학과
-                   <a href="https://psyche.cau.ac.kr/" target="_blank"><button type="button" class="website-button">바로가기</button></a>
-                 </div>
-               </div>
+      <a href="index.html"><h1 id="title">CAU PSYCHE GRAD-READY</h1></a>
+      <nav role="navigation">
+        <ul id="main-menu">
+          <li><a href="1steps.html">개설과목</a></li>
+          <li><a>졸업사정 기준</a>
+            <ul id="sub-menu">
+              <li><a href="2standard-1.html">주전공_신입학</a></li>
+              <li><a href="2standard-2.html">주전공_전과생</a></li>
+              <li><a href="2standard-3.html">주전공_편입학</a></li>
+              <li><a href="2standard-4.html">복수전공</a></li>
+            </ul>
+          </li>
+          <li><a>체크리스트</a>
+            <ul id="sub-menu">
+              <li><a href="3checklist.html">주전공_신입학</a></li>
+              <li><a href="3checklist.html">주전공_전과생</a></li>
+              <li><a href="3checklist.html">주전공_편입학</a></li>
+              <li><a href="3checklist.html">복수전공</a></li>
+            </ul>
+          </li>
+          <li><a href="4test.html">졸업시험</a></li>
+          <li><a href="5etc.html">졸업요건</a>
+            <ul id="sub-menu">
+              <li><a href="#">졸업인정제</a></li>
+              <li><a href="#">부전공</a></li>
+              <li><a href="#">교양과목</a></li>
+              <li><a href="#">기타</a></li>
+            </ul>
+          </li>
+          <li><a>주요사이트</a>
+            <ul id="sub-menu">
+              <li><a href="https://www.cau.ac.kr/index.do" target="_blank">중앙대학교</a></li>
+              <li><a href="https://mportal.cau.ac.kr/main.do"  target="_blank">중앙대포탈</a></li>
+              <li><a href="https://society.cau.ac.kr/" target="_blank">사회과학대학</a></li>
+              <li><a href="https://psyche.cau.ac.kr/" target="_blank">심리학과</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+          <div class="maincontent">
+            <h2>중앙대학교 심리학과 졸업 준비를 위한 페이지입니다.</h2>
+            <p>
+              심리학과 개설과목 커리큘럼과 졸업사정 기준표, 체크리스트를 확인하시고 졸업에 참고하시길 바랍니다.<br><br>
+              <img src="psyche_logo.png"><br>
+               <br>
+               게시된 자료는 참고용입니다. <br>
+               정확한 사항은 반드시 심리학과 사무실에 아래 연락처 또는 이메일로 문의하시기 바랍니다.
+               <br><br>
+               졸업 및 학사 정보, 일정 등은 주요사이트들을 수시로 방문하셔서 확인하시기를 권합니다.
+            </p>
+               <button type="button"><a href="#title">▲top</a></button>
           </div>
-          <p>
-           <h4>중앙대학교 심리학과 사무실</h4>
-           중앙대학교 서울캠퍼스 서라벌홀(203관) 721호<br>
-           02-820-5124  caupsyche@cau.ac.kr
-          </p>
-        </p>
-      </div>
-    </div>
+            <div id="information">
+               <h4>중앙대학교 심리학과 사무실</h4>
+               중앙대학교 서울캠퍼스 서라벌홀(203관) 721호<br>
+               02-820-5124 caupsyche@cau.ac.kr
+            </div>
   </body>
 </html>

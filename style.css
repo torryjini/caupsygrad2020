@@ -1,6 +1,9 @@
+
 body {
   margin:0;
+  padding: 0;
 }
+
 
 th {
   background: #E9EAE8;
@@ -22,46 +25,96 @@ h1 {
 }
 
 
-#mainmenu {
-  border-right:1px solid gray;
-  width:150px;
-  margin:0;
-  padding:20px;
-  padding-left:30px;
-}
-#grid {
-  display:grid;
-  grid-template-columns: 200px 1fr;
+nav > ul, nav > ul > ul {
+list-style-type: none;
 }
 
-#grid:after{
-  background: url("psyche_logo.png") no-repeat center;
-  background-size: auto;
-}
-#grid #article {
-  padding:25px;
-  padding-top: 5px;
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(90deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
-#maincontent {
-  text-align: center;
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
 th,td{
   text-align: center;
 }
-@media(max-width:800px){
-  #grid {
-    display:block;
-   }
-  ol {
-     border-right:none;
-   }
-  h1 {
-    border-bottom:none;
-   }
- }
+
 button  {
    display: block; margin: 0 auto;
+   margin-top: 20px;
+  }
+
+.maincontent {
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+  #main-menu > li {
+    float: left;
+    position: relative;
+  }
+
+  #main-menu > li > a {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.85);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 8px 36px;
+    border-right: 1px solid rgba(0,0,0,0.15);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  }
+
+  #main-menu > li:nth-child(1) > a {
+    border-left: 1px solid rgba(0,0,0,0.15);
+  }
+
+  #sub-menu {
+    position: absolute;
+    background: #182952;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in;
+    list-style: none;
+  }
+
+  #sub-menu > li {
+    padding: 14px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+  }
+
+  #sub-menu > li >  a {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+  }
+
+  #main-menu > li:hover #sub-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #sub-menu > li >  a:hover {
+   text-decoration: underline;
+  }
+
+  #content-info {
+    text-align: left;
+  }
+
+  #information {
+    color: white;
+    background:gray;
+    text-align: center;
   }
