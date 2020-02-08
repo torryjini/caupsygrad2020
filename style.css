@@ -90,8 +90,9 @@ button  {
   }
 
   #sub-menu > li {
-    padding: 14px 30px;
+    padding: 12px 30px;
     border-bottom: 1px solid rgba(0,0,0,0.15);
+    text-align: center;
   }
 
   #sub-menu > li >  a {
