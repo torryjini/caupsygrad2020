@@ -20,7 +20,7 @@ h1 {
   margin:0;
   padding:30px;
   color: white;
-  background: #34BE4E;
+  background: linear-gradient(#00bf72, #a8eb12);
 }
 
 
@@ -33,7 +33,7 @@ nav {
   display: flex;
   justify-content: center;
   position: relative;
-  background: linear-gradient(90deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background: linear-gradient(90deg, #051937, #004d7a, #008793);
 }
 
 ul, li {
@@ -117,6 +117,6 @@ button  {
 
   #information {
     color: white;
-    background:gray;
+    background:#626161;
     text-align: center;
   }
