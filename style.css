@@ -42,6 +42,9 @@ ul, li {
   list-style: none;
 }
 
+table {
+  margin: auto;
+}
 
 th,td{
   text-align: center;
