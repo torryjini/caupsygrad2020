@@ -126,11 +126,12 @@ button  {
 
   .langbox {
     margin-top: 20px;
+    text-align: right;
   }
 
   #page-info {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
   }
 
   #information {
