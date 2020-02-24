@@ -124,6 +124,15 @@ button  {
     text-align: left;
   }
 
+  .langbox {
+    margin-top: 20px;
+  }
+
+  #page-info {
+    display: grid;
+    grid-template-columns: 80% 20%;
+  }
+
   #information {
     color: white;
     background:#626161;
