@@ -139,7 +139,7 @@ button  {
     text-align: center;
   }
 
-  @media(max-width:1500px){
+  @media(max-width:1440px){
     .maincontent {
       text-align: center;
       margin-left: 0;
