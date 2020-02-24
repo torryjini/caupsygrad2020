@@ -138,3 +138,11 @@ button  {
     background:#626161;
     text-align: center;
   }
+
+  @media(max-width:800px){
+    .maincontent {
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+    }
+ }
