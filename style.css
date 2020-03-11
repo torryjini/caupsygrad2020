@@ -135,7 +135,22 @@ button  {
   }
 
   #information {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
     color: white;
     background:#626161;
     text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+  }
+
+  #office-info {
+    margin-left: 30%;
+  }
+
+  #developer-info {
+    margin-right: 30%;
   }
