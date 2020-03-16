@@ -150,6 +150,7 @@ button  {
   #information > h4 {
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: 0;
   }
 
   #office-info {
