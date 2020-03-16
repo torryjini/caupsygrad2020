@@ -147,6 +147,11 @@ button  {
     padding-bottom: 10px;
   }
 
+  #information > h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   #office-info {
     margin-left: 30%;
   }
