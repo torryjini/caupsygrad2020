@@ -80,7 +80,7 @@ button  {
     letter-spacing: 0.05em;
     display: block;
     padding: 8px 17px;
-    width: 120px;
+    width: 12rem;
     border-right: 1px solid rgba(0,0,0,0.15);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   }
